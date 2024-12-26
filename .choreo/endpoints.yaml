@@ -4,6 +4,7 @@ version: 0.1
 # +required List of endpoints to create
 endpoints:
   # +required Unique name for the endpoint. (This name will be used when generating the managed API)
+
   - name: Auth
     # +required Numeric port value that gets exposed via this endpoint
     port: 3000
